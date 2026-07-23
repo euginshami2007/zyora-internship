@@ -19,12 +19,18 @@ header{
 }
 
 nav ul{
-    list-style:none;
+    nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
 }
 
 nav ul li{
-    display:inline;
-    margin:0 15px;
+    margin:5px;
 }
 
 nav ul li a{
@@ -69,4 +75,16 @@ button{
 
 button:hover{
     background:#555;
+}
+@media (min-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+}img {
+    max-width: 100%;
+    height: auto;
 }
